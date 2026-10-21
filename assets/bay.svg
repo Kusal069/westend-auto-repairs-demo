@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" role="img" aria-labelledby="bayTitle bayDesc" preserveAspectRatio="xMidYMid slice">
+  <title id="bayTitle">Workshop bay illustration</title>
+  <desc id="bayDesc">Original CSS-adjacent vector of a roller-door workshop bay. Drawn for this demo; not a photograph of the business.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A3138"/>
+      <stop offset="1" stop-color="#14181C"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F3EEE6" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#F3EEE6" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#F3EEE6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="720" fill="url(#g)"/>
+  <g fill="#1C2227">
+    <rect x="48" y="40" width="544" height="28" rx="2"/>
+    <rect x="48" y="80" width="544" height="28" rx="2"/>
+    <rect x="48" y="120" width="544" height="28" rx="2"/>
+    <rect x="48" y="160" width="544" height="28" rx="2"/>
+    <rect x="48" y="200" width="544" height="28" rx="2"/>
+    <rect x="48" y="240" width="544" height="28" rx="2"/>
+    <rect x="48" y="280" width="544" height="28" rx="2"/>
+    <rect x="48" y="320" width="544" height="28" rx="2"/>
+    <rect x="48" y="360" width="544" height="28" rx="2"/>
+    <rect x="48" y="400" width="544" height="28" rx="2"/>
+  </g>
+  <rect x="48" y="40" width="544" height="388" fill="url(#shine)"/>
+  <rect x="40" y="428" width="560" height="12" fill="#C13A24"/>
+  <rect x="72" y="468" width="496" height="180" fill="#101418" stroke="#C4AE86" stroke-width="2"/>
+  <path d="M120 648 L320 520 L520 648 Z" fill="#1A1F24" stroke="#3A444C" stroke-width="2"/>
+  <circle cx="320" cy="590" r="18" fill="none" stroke="#C4AE86" stroke-width="3"/>
+  <rect x="308" y="548" width="24" height="84" fill="#C4AE86"/>
+  <text x="80" y="692" fill="#C4AE86" font-family="ui-sans-serif, system-ui, sans-serif" font-size="22" letter-spacing="4">BAY 02 · LAMBERT ST</text>
+</svg>

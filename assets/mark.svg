@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="markTitle markDesc">
+  <title id="markTitle">Westend Auto Repairs mark</title>
+  <desc id="markDesc">Original geometric workshop-bay mark: two posts, a cross-member, and an oxide stripe. Created for this demo; not a business trademark.</desc>
+  <rect width="64" height="64" rx="10" fill="#171A1D"/>
+  <rect x="8" y="10" width="48" height="6" rx="1" fill="#C13A24"/>
+  <rect x="12" y="22" width="8" height="32" fill="#F3EEE6"/>
+  <rect x="44" y="22" width="8" height="32" fill="#F3EEE6"/>
+  <rect x="20" y="34" width="24" height="6" fill="#C4AE86"/>
+  <rect x="28" y="22" width="8" height="32" fill="#F3EEE6" opacity="0.35"/>
+</svg>
