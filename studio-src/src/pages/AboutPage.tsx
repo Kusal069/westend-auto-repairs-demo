@@ -137,10 +137,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onInspectGalle
         <div className="space-y-6">
           <div className="space-y-1">
             <h2 className="font-display text-2xl sm:text-3xl font-bold uppercase tracking-tight text-[#111214]">
-              Bathurst-Style Workshop Concept Studies
+              The Workshop In Bathurst
             </h2>
             <p className="text-sm text-[#4A4F58]">
-              Generated architectural and workbench studies illustrating an independent regional workshop. Every image is captioned &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;
+              Photographs from the public Google listing for this workshop. Every image is captioned &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

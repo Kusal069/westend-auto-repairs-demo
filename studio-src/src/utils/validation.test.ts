@@ -38,7 +38,7 @@ test('services enforce single confirmed Auto repairs service and labelled placeh
   }
 });
 
-test('gallery has 6 to 8 items and every item has mandatory concept caption', () => {
+test('gallery has 6 to 8 items and every item has a listing-photo caption', () => {
   const audit = auditStrictCompliance();
   assert.equal(audit.confirmedServicesCount, 1);
   assert.equal(audit.allGalleryCaptioned, true);

@@ -22,7 +22,7 @@ export const WorkshopVisual: React.FC<WorkshopVisualProps> = ({
           <span aria-hidden="true">·</span>
           <span className="text-white font-medium">{item.category}</span>
         </div>
-        <span className="text-[#9AA2B1] hidden sm:inline">Bathurst Workshop Study</span>
+        <span className="text-[#9AA2B1] hidden sm:inline">Google listing photo</span>
       </div>
 
       <div className="relative aspect-16/10 w-full overflow-hidden bg-[#111317]">

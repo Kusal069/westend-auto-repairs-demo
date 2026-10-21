@@ -95,7 +95,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="lg:col-span-5 flex flex-col">
               <div className="relative flex-1 border border-white/15 bg-[#16191E] overflow-hidden flex flex-col justify-between">
                 <div className="px-4 py-2.5 bg-[#111214] border-b border-white/15 flex items-center justify-between gap-2 text-xs text-[#E5E7EB] font-mono-num">
-                  <span>Bay Study 01 · Hydraulic Hoist</span>
+                  <span>Listing photo · 2 Lambert St</span>
                   <span className="text-[#A5ABB6]">{VERIFIED_FACTS.streetAddress}, Bathurst</span>
                 </div>
                 <div className="relative flex-1 min-h-[240px]">
@@ -281,16 +281,16 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
             <div className="space-y-2 max-w-2xl">
               <p className="text-xs font-semibold uppercase tracking-wider text-[#E56B58]">
-                Bathurst-Style Workshop Concept Plates
+                Google listing photographs
               </p>
               <h2
                 className="font-display text-3xl sm:text-4xl font-bold uppercase tracking-tight text-white"
                 style={{ textWrap: 'balance' }}
               >
-                Workshop Environment & Bay Studies
+                The Workshop, Not A Stock Image
               </h2>
               <p className="text-sm sm:text-base text-[#B4BBC6] leading-relaxed">
-                Original architectural and mechanical concept visuals illustrating an independent regional workshop environment. Every image is explicitly labelled &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo; and no external Google Maps or Facebook photos are reused.
+                Photographs taken from the public Google listing for Westend Auto Repairs. Every image is labelled &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;.
               </p>
             </div>
             <button
@@ -298,7 +298,7 @@ export const HomePage: React.FC<HomePageProps> = ({
               onClick={() => onNavigate('gallery')}
               className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-white/10 hover:bg-white/15 border border-white/20 transition-colors rounded-sm whitespace-nowrap shrink-0 w-fit cursor-pointer"
             >
-              <span>Open all {GALLERY_ITEMS.length} workshop plates</span>
+              <span>Open all {GALLERY_ITEMS.length} listing photos</span>
               <ArrowRight className="w-4 h-4 text-[#E56B58] shrink-0" aria-hidden="true" />
             </button>
           </div>

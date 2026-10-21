@@ -27,16 +27,16 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({ onInspectGalleryItem }
         <div className="border-b border-white/10 pb-8 flex flex-col lg:flex-row lg:items-end justify-between gap-6">
           <div className="space-y-3 max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-wider text-[#E56B58]">
-              Work / Gallery · Original Bathurst-Style Workshop Concept Series
+              Work / Gallery · Google listing photographs of this workshop
             </p>
             <h1
               className="font-display text-4xl sm:text-5xl font-bold uppercase tracking-tight text-white"
               style={{ textWrap: 'balance' }}
             >
-              Workshop Environment & Equipment Studies
+              The Workshop At 2 Lambert Street
             </h1>
             <p className="text-base text-[#B4BBC6] leading-relaxed">
-              This gallery features {GALLERY_ITEMS.length} original Bathurst-style independent workshop visuals (hydraulic hoist, open service bay, tool shadow board, twilight workshop facade, engine diagnostics bench, disc brake assembly, and undercarriage inspection). No Google Maps or Facebook photos are reused, and every visual is explicitly captioned{' '}
+              This gallery uses {GALLERY_ITEMS.length} photographs from the public Google listing for Westend Auto Repairs at 2 Lambert St, Bathurst. They are labelled{' '}
               <strong className="text-white">&ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;</strong>
             </p>
           </div>
@@ -76,7 +76,7 @@ export const GalleryPage: React.FC<GalleryPageProps> = ({ onInspectGalleryItem }
             })}
           </div>
           <p className="text-xs text-[#9AA2B1] font-mono-num">
-            Showing {filteredItems.length} of {GALLERY_ITEMS.length} concept visuals · Caption: &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;
+            Showing {filteredItems.length} of {GALLERY_ITEMS.length} listing photos · Caption: &ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;
           </p>
         </div>
 

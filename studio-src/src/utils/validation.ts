@@ -90,7 +90,7 @@ export function auditStrictCompliance(): {
   const allGalleryCaptioned =
     GALLERY_ITEMS.length >= 6 &&
     GALLERY_ITEMS.length <= 8 &&
-    GALLERY_ITEMS.every((g) => g.caption === 'Concept visual, not a Westend job.');
+    GALLERY_ITEMS.every((g) => g.caption === 'Google listing photo of this workshop.');
   const hasValidPhoneHref = VERIFIED_FACTS.phoneHref === 'tel:+61263312920';
 
   return {

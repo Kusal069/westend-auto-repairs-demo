@@ -117,7 +117,7 @@ export const Footer: React.FC<FooterProps> = ({ activePage, onNavigate }) => {
               {VERIFIED_FACTS.demoNotice}
             </p>
             <p>
-              All workshop graphics are concept visuals (&ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;). Phone:{' '}
+              Workshop photos are from the public Google listing (&ldquo;{VERIFIED_FACTS.conceptCaption}&rdquo;). Phone:{' '}
               <a
                 href={VERIFIED_FACTS.phoneHref}
                 className="text-white underline underline-offset-2 hover:text-[#E56B58] font-mono-num"
