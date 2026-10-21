@@ -506,6 +506,10 @@ textarea {
   clip: rect(0 0 0 0);
 }
 
+[hidden] {
+  display: none !important;
+}
+
 @media (min-width: 800px) {
   .hero {
     grid-template-columns: 1.1fr 0.9fr;

@@ -7,7 +7,7 @@ This is **not** the official website and is **not** published on westendauto.com
 ## Pages
 
 - `index.html` — Home
-- `services.html` — Auto repairs plus unpublished placeholders
+- `services.html` — Auto repairs only (owner-confirm modules stay hidden in source)
 - `about.html` — Location facts only
 - `reviews.html` — Maps snapshot 4.7 / 63, no quoted reviews
 - `contact.html` — Click-to-call, Maps directions, demo-only form
@@ -32,4 +32,4 @@ Open http://127.0.0.1:4173/
 
 ## Limitations
 
-Hours, email, WhatsApp, prices, service menu, credentials, testimonials, and photo rights are unverified. The callback form does not send.
+Hours, email, WhatsApp, prices, service menu, credentials, testimonials, and photo rights are unverified. The callback form does not send. GitHub Pages cannot set custom HTTP security headers; see `SECURITY.md`. No AutoRepair JSON-LD is published on this independent demo.
