@@ -1,3 +1,6 @@
 .DS_Store
-.vercel
-node_modules
+node_modules/
+.env
+studio-src/node_modules/
+studio-src/dist/
+studio-src/.env

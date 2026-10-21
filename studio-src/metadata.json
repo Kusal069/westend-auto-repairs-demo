@@ -1,0 +1,6 @@
+{
+  "name": "Westend Auto Repairs — Bathurst Demo Site",
+  "description": "Independent concept marketing website for Westend Auto Repairs at 2 Lambert St, Bathurst NSW 2795.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
