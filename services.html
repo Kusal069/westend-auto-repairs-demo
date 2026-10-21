@@ -16,7 +16,18 @@
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <div class="demo-ribbon" role="status">Independent concept demo — not the official Westend Auto Repairs website.</div>
+  <div class="facts-bar">
+    <div class="facts-inner">
+      <div class="facts-cluster">
+        <span class="facts-demo">Independent concept demo</span>
+        <span>2 Lambert St, Bathurst NSW 2795</span>
+      </div>
+      <div class="facts-cluster">
+        <a href="tel:+61263312920">Call (02) 6331 2920</a>
+        <span>Maps 4.7 / 63 · 21 Oct 2026 snapshot</span>
+      </div>
+    </div>
+  </div>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">
@@ -27,54 +38,61 @@
       <nav class="site-nav" id="site-nav" data-nav aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
           <li><a href="services.html" aria-current="page">Services</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="reviews.html">Reviews</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a class="nav-call" href="tel:+61263312920">Call (02) 6331 2920</a></li>
+          <li class="nav-actions">
+            <a class="btn btn-ink" href="contact.html">Callback</a>
+            <a class="btn btn-primary" href="tel:+61263312920">Call now</a>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="wrap hero">
-      <div>
-        <p class="kicker">Services</p>
-        <h1>Auto repairs</h1>
-        <p class="lede">The only service category verified for this demo is auto repairs. Individual jobs, prices, and a service radius are not published here.</p>
-        <div class="cta-row">
-          <a class="btn btn-primary" href="tel:+61263312920">Call to ask</a>
-          <a class="btn btn-ghost" href="contact.html">Request a callback</a>
+    <section class="page-hero">
+      <div class="wrap grid-2">
+        <div>
+          <p class="kicker">Services</p>
+          <h1>Auto repairs</h1>
+          <p class="lede">The only service category verified for this demo is auto repairs. Individual jobs, prices, warranties, and a service radius are not published here.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="tel:+61263312920">Call to ask</a>
+            <a class="btn btn-ghost" href="contact.html">Request a callback</a>
+          </div>
         </div>
-      </div>
-      <div class="plate">
-        <span class="tag">Verified</span>
-        <strong>Auto repairs</strong>
-        <span>Bathurst · 2 Lambert St</span>
+        <div class="plate">
+          <span class="tag">Verified</span>
+          <strong>Auto repairs</strong>
+          <span>Bathurst · 2 Lambert St</span>
+        </div>
       </div>
     </section>
 
-    <!-- Owner-confirm modules stay in source. Hidden from the prospect demo until approved wording exists. Remove the hidden attribute to publish. -->
-    <section class="band band-paper owner-confirm" hidden>
+    <section class="band band-paper">
       <div class="wrap">
-        <h2>Owner-confirm modules</h2>
-        <p>These cards are editable placeholders. They are not a menu of work this workshop has confirmed.</p>
+        <div class="section-head">
+          <p class="kicker">How to use this page</p>
+          <h2>Ask the workshop, do not guess the menu</h2>
+        </div>
         <div class="grid-3">
-          <article class="card placeholder">
-            <p class="tag">Unpublished</p>
-            <h3>Service line A</h3>
-            <p>Owner to confirm wording, scope, and whether this belongs on the live site.</p>
+          <article class="card">
+            <p class="card-num">01</p>
+            <h3>Verified category</h3>
+            <p>Public listings describe the business as auto repairs. That is the wording used on this demo.</p>
           </article>
-          <article class="card placeholder">
-            <p class="tag">Unpublished</p>
-            <h3>Service line B</h3>
-            <p>Owner to confirm wording, scope, and whether this belongs on the live site.</p>
+          <article class="card">
+            <p class="card-num">02</p>
+            <h3>Specific jobs</h3>
+            <p>Call <a href="tel:+61263312920">+61 2 6331 2920</a> to ask whether a particular vehicle or job can be taken on. This page does not invent a service list.</p>
           </article>
-          <article class="card placeholder">
-            <p class="tag">Unpublished</p>
-            <h3>Service line C</h3>
-            <p>Owner to confirm wording, scope, and whether this belongs on the live site.</p>
+          <article class="card">
+            <p class="card-num">03</p>
+            <h3>Unpublished details</h3>
+            <p>Hours, prices, credentials, and travel area stay off the site until they are confirmed in writing by the owner.</p>
           </article>
         </div>
       </div>
@@ -82,8 +100,38 @@
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
-      <p>Independent concept demo. No prices, hours, or service area are stated because they are unverified.</p>
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <strong>Westend Auto Repairs</strong>
+        <p>Independent concept demo. Not the official website.</p>
+        <p>2 Lambert St, Bathurst NSW 2795 · <a href="tel:+61263312920">+61 2 6331 2920</a></p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Listed contacts</h3>
+        <ul>
+          <li><a href="tel:+61263312920">Call the workshop</a></li>
+          <li><a href="https://www.google.com/maps/place/Westend+Auto+Repairs/data=!4m7!3m6!1s0x6b11e5cf1e9d2bf9:0x3c0bcd7954845210!8m2!3d-33.4290413!4d149.5797032!16s%2Fg%2F1tdkb6pp">Google Maps</a></li>
+          <li><a href="https://www.facebook.com/westendautorepairs/">Facebook page</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Limits of this demo</h3>
+        <p>No prices, hours, or service area are stated because they are unverified.</p>
+      </div>
+    </div>
+    <div class="wrap footer-legal">
+      <p>Independent concept demo. Callback form does not send.</p>
     </div>
   </footer>
   <div class="mobile-dock" role="navigation" aria-label="Quick contact">

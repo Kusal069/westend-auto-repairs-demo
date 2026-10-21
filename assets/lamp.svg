@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="lampTitle lampDesc" preserveAspectRatio="xMidYMid slice">
+  <title id="lampTitle">Bay lighting illustration</title>
+  <desc id="lampDesc">Original geometric illustration of overhead bay lights on a workshop floor. Drawn for this demo; not a photograph of the premises.</desc>
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2A241C"/>
+      <stop offset="0.45" stop-color="#171A1D"/>
+      <stop offset="1" stop-color="#101214"/>
+    </linearGradient>
+    <radialGradient id="beam" cx="0.5" cy="0.12" r="0.7">
+      <stop offset="0" stop-color="#F3EEE6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#F3EEE6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#lg)"/>
+  <rect width="800" height="560" fill="url(#beam)"/>
+  <rect x="80" y="36" width="640" height="18" fill="#2C333A"/>
+  <rect x="140" y="54" width="120" height="16" fill="#C4AE86"/>
+  <rect x="340" y="54" width="120" height="16" fill="#C4AE86"/>
+  <rect x="540" y="54" width="120" height="16" fill="#C4AE86"/>
+  <path d="M80 430 L720 430 L760 520 L40 520 Z" fill="#1A1F24"/>
+  <rect x="40" y="520" width="720" height="10" fill="#C13A24"/>
+  <rect x="200" y="250" width="400" height="160" fill="#14181C" stroke="#3A444C" stroke-width="2"/>
+  <rect x="230" y="280" width="140" height="8" fill="#C13A24"/>
+  <rect x="230" y="300" width="90" height="8" fill="#C4AE86" opacity="0.6"/>
+  <text x="48" y="548" fill="#C4AE86" font-family="ui-sans-serif, system-ui, sans-serif" font-size="18" letter-spacing="3">ORIGINAL · BAY LIGHT</text>
+</svg>
